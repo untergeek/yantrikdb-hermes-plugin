@@ -60,9 +60,9 @@ dev = [
 # Hermes' uv-managed environment regeneration (#92). sentence-transformers
 # pulls in PyTorch, so it stays optional — install only if you use
 # YANTRIKDB_EMBEDDER_HF.
-sentence-transformers = [
-  "sentence-transformers>=2.7,<6.0.0",
-]
+#sentence-transformers = [
+#  "sentence-transformers>=2.7,<6.0.0",
+#]
 
 [project.urls]
 Homepage = "https://github.com/yantrikos/yantrikdb-hermes-plugin"
